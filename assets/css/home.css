@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+#page-heading{
+    text-align: center;
+    color: grey;
+    margin: 2.5%;
+}
+#page-heading span{
+    margin-right: 10px;
+}
+
+ul{
+    height: auto;
+    width: 500px;
+    margin: auto;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 1%;
+    background-color: rgb(87, 161, 240);
+    color: white;
+}
+li:hover{
+    background-color: grey;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+  
+li a:hover {
+    color: red;
+    cursor: pointer;
+}
+#details{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+form {
+    height: auto;
+    width: 500px;
+    margin: auto;
+}
+form input{
+    outline: none;
+    padding: 5px;
+}
+form button{
+    margin: 5px;
+    padding: 5px;
+    width: 20%;
+}

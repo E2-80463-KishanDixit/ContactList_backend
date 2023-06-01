@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title> <%=locals.title%> </title>
+    </head>
+    <body>
+        <h1 > Here we will play!!</h1>
+
+        <!-- FOR LOOP -->
+        <ul>
+            <% for(let i=1;i<=10;i++){ %>
+                <li>
+                   <%= i %>
+                </li>
+            <% } %>
+        </ul>
+
+        <!--------- CONDITIONALS -------------->
+
+        <% if(true){ %>
+            <h2>I am true</h2>
+        <%  }else{   %>
+            <h1> You are false </h1>
+        <% } %>
+
+
+
+    </body>
+</html>
